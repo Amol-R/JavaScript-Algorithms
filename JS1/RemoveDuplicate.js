@@ -13,10 +13,23 @@
 
 // Using simpal for loop
 
-let array = 'geeksofgeeks'
-let result = ''
-for(let i=0 ; i<array.length; i++){
-    if(!result.includes(array[i])){
-        result += array[i]
+// let array = 'geeksofgeeks'
+// let result = ''
+// for(let i=0 ; i<array.length; i++){
+//     if(!result.includes(array[i])){
+//         result += array[i]
+//     }
+// }console.log(result)
+
+
+// ==================================================================================
+
+// Remove the duplicate number 
+
+let a= [1,2,3,4,9,8,7,6,5,1,4,2,3]
+let b = []
+for(let i =0 ;i<a.length ; i++){
+    if(!b.includes(a[i])){
+        b.push(a[i])
     }
-}console.log(result)
+}console.log(b)
