@@ -11,12 +11,24 @@
 //     rev += a[i]
 // }console.log(rev)
 
+
+//===================================================================================
 // Pallindrome
 
-let a= 'eye'
-let rev = ''
-for(let i=a.length-1 ;i>=0 ;i--){
-    rev += a[i]
-}
-let c = (rev == a) ? 'Pallindrome' : 'Not a Pallindrome'
-console.log(c)
+// let a= 'eye'
+// let rev = ''
+// for(let i=a.length-1 ;i>=0 ;i--){
+//     rev += a[i]
+// }
+// let c = (rev == a) ? 'Pallindrome' : 'Not a Pallindrome'
+// console.log(c)
+
+// ==================================================================================
+
+let a= 'Amol Baban Rindhe'
+let c = a.split(' ').map(ele => ele.split('').reverse().join(''))
+console.log(c.join(' '))
+
+
+let aa = a.split('').reverse().join('')
+console.log(aa)
