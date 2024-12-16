@@ -18,3 +18,15 @@
 
 ///  fibonacci 
 
+
+// Input : "This 3 is 67 an javascript 5 example3"
+// Output :  24    Addition of a numbers only 
+
+   let a = "This 3 is 67 an javascript 5 example3"
+   let sum = 0
+   let num = a.match(/\d+/g).join('')
+   console.log(num)
+   for(let i = 0 ;  i<=num.length ; i++){
+       sum += i
+   }console.log(sum)
+  
