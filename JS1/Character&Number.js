@@ -8,17 +8,17 @@
 // =================================================================
 //  2
 
-// let a = ['Amol', 123, 'TG', 334, 'tg']
-// let str = []
-// let num = []
-// for(let i = 0 ; i<a.length ; i++){
-//     if(typeof a[i] == 'number'){
-//         num.push(a[i])
-//     }else{
-//         str.push(a[i])
-//     }
-// }console.log(str)
-// console.log(num)
+let a = ['Amol', 123, 'TG', 334, 'tg']
+let str = []
+let num = []
+for(let i = 0 ; i<a.length ; i++){
+    if(typeof a[i] == 'number'){
+        num.push(a[i])
+    }else{
+        str.push(a[i])
+    }
+}console.log(str)
+console.log(num)
 
 //=======================================================================
 

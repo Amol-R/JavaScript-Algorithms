@@ -24,9 +24,12 @@
 
    let a = "This 3 is 67 an javascript 5 example3"
    let sum = 0
-   let num = a.match(/\d+/g).join('')
+   let num = a.match(/\d+/g).map(ele => +ele).join('')
    console.log(num)
    for(let i = 0 ;  i<=num.length ; i++){
        sum += i
    }console.log(sum)
   
+
+//    let c= num.split('').map(ele => +ele)
+//    console.log
