@@ -18,3 +18,26 @@ if (isArmstrongNumber(number)) {
 } else {
     console.log(`${number} is not an Armstrong number.`);
 }
+
+
+// =====================================================
+/* 
+
+function amg(num){
+    let sum = 0
+    let dig = num.toString().split('')
+    let pow = dig.length
+
+    for(let digit of dig){
+        sum += Math.pow(parseInt(digit),pow)
+    }
+    return sum === num
+}
+ const num = 153
+ if(amg(num)){
+    console.log('is Amstrong number')
+ }else{
+    console.log('Not Amstrong')
+ } 
+
+*/  
