@@ -26,8 +26,8 @@
 // ==================================================================================
 
 let a= 'Amol Baban Rindhe'
-let c = a.split(' ').map(ele => ele.split('').reverse().join(''))
-console.log(c.join(' '))
+let c = a.split(' ').map(ele => ele.split('').reverse().join('')).join(' ')
+console.log(c)
 
 
 let aa = a.split('').reverse().join('')
