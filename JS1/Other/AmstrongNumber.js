@@ -26,10 +26,10 @@ if (isArmstrongNumber(number)) {
 function amg(num){
     let sum = 0
     let dig = num.toString().split('')
-    let pow = dig.length
+    let power = dig.length
 
     for(let digit of dig){
-        sum += Math.pow(parseInt(digit),pow)
+        sum += Math.pow(parseInt(digit),power)
     }
     return sum === num
 }
